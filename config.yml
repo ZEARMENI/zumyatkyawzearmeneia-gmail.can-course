@@ -1,0 +1,20 @@
+title: >-
+  zumyatkyawzearmeneia@gmail.canဤနေရာတွင် သင် ကူးယူသည့်စာသားကို
+  အလိုအလျောက်ပြမည်ဤနေရာတွင် သင် ကူးယူသည့
+description: >-
+  1 နာရီကြာပြီးနောက် သက်တမ်းကုန်နေသည့် ကူးယူထားသည့်စာသားအပိုင်းလေးများကို
+  ပင်တွဲပါသူတို့ကိုဖျက်ရန် ကလစ်များကိုဆလိုက်ဆွဲပါ
+template:
+  repo: zumyatkyawzearmeneia@gmail.can-template
+  name: zumyatkyawzearmeneia@gmail.can
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
